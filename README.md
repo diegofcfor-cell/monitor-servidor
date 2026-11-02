@@ -13,10 +13,10 @@ Datos que muestra: nombre del equipo, sistema operativo, versión de PHP, uso de
 
 | | |
 | --- | --- |
-| Sistema operativo | Linux Mint <!-- completar versión: cat /etc/linuxmint/info --> (kernel 7.0.0-38-generic) |
+| Sistema operativo | Linux Mint 22.3 Zena (kernel 7.0.0-38-generic) |
 | Equipo | HP 240 G8 Notebook PC |
 | PHP | 8.5.11 |
-| Laravel | <!-- completar: php artisan --version --> |
+| Laravel | Framework 13.39.0 |
 | Editor | Visual Studio Code |
 
 **Nota sobre el sistema operativo.** El enunciado está pensado para Windows, donde los datos se leen con PowerShell y WMI. Como trabajo en Linux Mint, agregué al service el método `readLinux()` (el desafío opcional del TP). Lee los mismos datos desde archivos del sistema:
