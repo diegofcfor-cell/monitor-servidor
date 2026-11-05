@@ -1,6 +1,6 @@
 # Monitor de Servidor con Laravel
 
-Trabajo práctico de **Programación IV** (UTN FRRe, cohorte 2026). Docentes: German Crozy y Fernando Aguirre.
+Trabajo práctico de **Programación IV** (UTN FRRe, cohorte 2026). Docentes: German Crozy y Fernando Aguirre. Alumno: Diego F. Cardozo.
 
 Aplicación Laravel que lee datos del sistema operativo del servidor y los muestra de dos formas:
 
@@ -39,6 +39,8 @@ Datos que muestra: nombre del equipo, sistema operativo, versión de PHP, uso de
 | `routes/web.php` | Ruta `GET /servidor` |
 | `routes/api.php` | Ruta `GET /api/metrics`, limitada a 60 pedidos por minuto |
 | `resources/views/servidor.blade.php` | Vista con las tarjetas y el script de polling |
+
+El informe del trabajo está en [docs/informe.md](docs/informe.md) y el recorrido del código paso a paso en [docs/control-de-flujo.md](docs/control-de-flujo.md).
 
 ## Cómo ejecutarlo
 
